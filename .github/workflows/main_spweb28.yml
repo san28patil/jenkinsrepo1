@@ -54,7 +54,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'spweb28-stage'
+          app-name: 'spweb28'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_47EDA10C073E4C6EAA5ADB836F21CA3E }}
           package: .
